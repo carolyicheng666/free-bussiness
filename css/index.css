@@ -1,0 +1,175 @@
+.btn {
+	cursor: pointer;
+}
+
+/*=================
+====== navbar ======
+===================*/
+.navbar-nav {
+	font-size: 14px;
+}
+
+.navbar-nav .nav-item {
+	padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+	background-color: #ffbb42;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/*=================
+====== home ======
+===================*/
+.home {
+	padding: 50px 0;
+	background-color: #709dca !important;
+}
+
+.home-form .input-lg, .home-form .btn-lg {
+	font-size: 14px;
+}
+
+.home-form .btn-lg {
+	padding: 13px 45px;
+}
+
+/*==============
+====service====
+================*/
+.service {
+	padding: 80px 0;
+}
+
+.service h4 {
+	font-size: 16px;
+}
+
+.service p {
+	font-size: 12px;
+}
+
+/*==============
+===about-us====
+================*/
+.about-us-right {
+	background-color: #ffc155;
+	color: #fff;
+	padding-top: 8rem;
+}
+
+.about-us-right p {
+	font-size: 12px;
+}
+
+.about-us .col-lg-6:first-child, 
+.about-us .col-lg-6:first-child {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*===============
+==pricing-table==
+=================*/
+.pricing-table {
+	padding: 100px 0;
+	background-color: #e7edf3;
+}
+
+.pricing-table .item1,
+.pricing-table .item2 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.pricing-table .dollar {
+	font-size: 2.5rem;
+}
+
+.pricing-table hr {
+	margin-top: .7rem;
+	margin-bottom: .7rem;
+}
+
+.item1 h6:nth-last-of-type(1),
+.item1 h6:nth-last-of-type(2),
+.item1 h6:nth-last-of-type(3),
+.item2 h6:nth-last-of-type(1),
+.item2 h6:nth-last-of-type(2),
+.item2 h6:nth-last-of-type(3) {
+	font-size: .85rem;
+}
+
+.item1 div {
+	border: 1px solid #ccd5df;
+}
+
+.item2 div {
+	background-color: #709dca;
+	padding-top: 4.5rem!important;
+	padding-bottom: 4.5rem!important;
+}
+
+
+/*===============
+==how-it-works==
+=================*/
+.how-it-works {
+	padding: 100px 0;
+}
+
+.how-it-works p {
+	font-size: 14px;
+}
+
+.how-it-works .btn {
+	background-color: #ffbb42;
+	color: #fff;
+	font-size: 14px;
+}
+
+/*==============
+=happy-clients=
+================*/
+.happy-clients {
+	padding: 100px 0;
+	background-color: #ffc155;
+}
+
+.happy-clients .item {
+	margin: 10px;
+	background-color: #fff;
+}
+
+.happy-clients p {
+	font-size: 14px;
+}
+
+.happy-clients .name {
+	font-size: 14px;
+	color: #f6772c;
+}
+
+.happy-clients .profession {
+	font-size: 14px;
+}
+
+/*=============
+==contact-us==
+==============*/
+.contact-us {
+	padding: 100px 0;
+}
+
+/*===========
+===footer===
+=============*/
+.footer {
+	background-color: #709dca;
+	font-size: 1rem;
+}
