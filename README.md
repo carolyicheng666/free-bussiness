@@ -18,6 +18,9 @@ $('.nav-link').click(function() {
 2. 回到顶部效果
 3. 修改滚动条样式
 
+*2017.11.20更新：*
+1. 回到顶部效果优化
+2. 原生css模式换成 `sass + autoprefixer + browser-sync` ，并使用 `gulp` 进行自动化构建，为了调试方便，这里 `gulp-sass` 编译采用 `{outputStyle: 'expanded'}` 的输出模式
 
 Tips
 ---

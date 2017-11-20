@@ -1,0 +1,31 @@
+.pricing-table {
+	padding: 6rem 0;
+	background-color: $price-bg;
+  
+  .dollar {
+	  font-size: 2.5rem;
+	}
+	hr {
+		margin-top: .7rem;
+		margin-bottom: .7rem;
+	}
+}
+
+.item1 h6:nth-last-of-type(1),
+.item1 h6:nth-last-of-type(2),
+.item1 h6:nth-last-of-type(3),
+.item2 h6:nth-last-of-type(1),
+.item2 h6:nth-last-of-type(2),
+.item2 h6:nth-last-of-type(3) {
+	font-size: .85rem;
+}
+
+.item1 div {
+	border: 1px solid $price-border;
+}
+
+.item2 div {
+	background-color: $main-color;
+	padding-top: 4.5rem!important;
+	padding-bottom: 4.5rem!important;
+}

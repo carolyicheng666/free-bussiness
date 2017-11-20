@@ -1,0 +1,20 @@
+.navbar-nav {
+	font-size: .875rem;
+
+  .nav-item {
+	  padding: 0 .635rem;
+	}
+}
+
+.navbar-light {
+	.navbar-nav {
+		.active>.nav-link,
+		.nav-link.show,
+		.show>.nav-link {
+			color: $white;
+			background-color: $btn;
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+}

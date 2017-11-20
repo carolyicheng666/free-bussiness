@@ -1,8 +1,8 @@
 (function($) {
-	"use strict";
+  "use strict";
 
-	// Smooth scrolling using jQuery easing
-	$('a.nav-link[href*="#"]:not([href="#"])').click(function() {
+  // Smooth scrolling using jQuery easing
+  $('a.nav-link[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -15,7 +15,7 @@
     }
   });
 
-	// Closes responsive menu when a scroll trigger link is clicked
+  // Closes responsive menu when a scroll trigger link is clicked
   $('.nav-link').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
@@ -27,15 +27,38 @@
   });
 
   // Go top
-  $(document.body).find(".gotop").remove();
-	$('<a href="javascript:;" class="gotop">gotop</a>').appendTo(document.body);
-	$(window).on("scroll", function() {
-    var e = $(window).scrollTop();
-    e > 200 ? $(document).find(".gotop").fadeIn() : $(document).find(".gotop").fadeOut();
+  /*$('.gotop').remove();
+  $('<a href="#home" class="gotop nav-link">gotop</a>').appendTo(document.body);
+  $(document).scroll(function() {
+    $(this).scrollTop() > 200 ? $('.gotop').fadeIn() : $('.gotop').fadeOut();
   });
-  $(document).on("click", ".gotop", function() {
-    $("html, body").animate({
+  $('.gotop').click(function() {
+    $('html, body').animate({
       scrollTop: 0
-    }, 300);
+    }, 1000, "easeInOutExpo");
+  });*/
+
+  var fixed = false;
+  $(document).scroll(function() {
+    if ($(this).scrollTop() > 250) {
+      if (!fixed) {
+        fixed = true;
+        $('#to-top').show("slow", function() {
+          $('#to-top').css({
+            position: 'fixed',
+            display: 'block'
+          });
+        });
+      }
+    } else {
+      if (fixed) {
+        fixed = false;
+        $('#to-top').hide("slow", function() {
+          $('#to-top').css({
+            display: 'none'
+          });
+        });
+      }
+    }
   });
 })(jQuery);

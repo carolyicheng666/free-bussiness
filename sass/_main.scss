@@ -1,0 +1,31 @@
+.btn {
+	cursor: pointer;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #555;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.gotop {
+  position: fixed;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  z-index: 2000;
+  overflow: hidden;
+  text-indent: -99em;
+  bottom: 3rem;
+  display: none;
+  background: url(../images/icon-gotop.png) center center no-repeat;
+}

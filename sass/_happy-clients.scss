@@ -1,0 +1,19 @@
+.happy-clients {
+	padding: 6rem 0;
+	background-color: $sec-color;
+  
+  .item {
+		margin: .625rem;
+		background-color: $white;
+	}
+	p {
+		font-size: .875rem;
+	}
+	.name {
+		font-size: .875rem;
+		color: $name;
+	}
+	.profession {
+		font-size: .875rem;
+	}
+}
