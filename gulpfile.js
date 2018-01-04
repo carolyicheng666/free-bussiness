@@ -1,15 +1,19 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
-var autoprefixer = require('gulp-autoprefixer');
+var autoprefixer = require('autoprefixer');
+
+var postcss = require('gulp-postcss');
+var cssnano = require('cssnano');
 
 gulp.task('sass', function() {
+  var plugins = [
+    autoprefixer({ browsers: ['last 2 versions'], cascade: false}),
+    cssnano()
+  ];
   return gulp.src('sass/index.scss')
     .pipe(sass({outputStyle: 'expanded'}))
-    .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
-        cascade: false
-    }))
+    .pipe(postcss(plugins))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({
       stream: true
@@ -19,7 +23,7 @@ gulp.task('sass', function() {
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: ''
+      baseDir: './'
     },
   })
 });

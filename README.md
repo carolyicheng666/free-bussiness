@@ -22,6 +22,9 @@ $('.nav-link').click(function() {
 1. 回到顶部效果优化
 2. 原生css模式换成 `sass + autoprefixer + browser-sync` ，并使用 `gulp` 进行自动化构建，为了调试方便，这里 `gulp-sass` 编译采用 `{outputStyle: 'expanded'}` 的输出模式
 
+*2018.1.4更新：*
+1. 引入PostCSS，gulp-autoprefixer不在PostCSS支持的插件列表中，改用原版autoprefixer
+
 Tips
 ---
 
