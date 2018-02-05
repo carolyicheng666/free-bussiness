@@ -1,7 +1,7 @@
 free-bussiness
 ===
 
-`Bootstrap` 截止目前已经升级到了 `v4.0.0-beta.2`，粗略的看了一下，`API` 有比较大的更新，于是随便找了个 [psd](https://pan.baidu.com/s/1pKEtOYf) 练练手，密码是 `rq3c`，顺便熟悉下新的 `API`  
+<del>`Bootstrap` 截止目前已经升级到了 `v4.0.0-beta.2`，</del>Bootstrap4已经正式发布了！粗略的看了一下，`API` 有比较大的更新，于是随便找了个 [psd](https://pan.baidu.com/s/1pKEtOYf) 练练手，密码是 `rq3c`，顺便熟悉下新的 `API`  
 
 Preview
 ---
