@@ -1,6 +1,13 @@
-(function($) {
-  "use strict";
+import 'normalize.css/normalize.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.css';
+import './sass/index.scss';
 
+import $ from 'jquery';
+import 'bootstrap';
+import {easeInOutExpo} from 'jquery.easing/jquery.easing.js';
+
+(function() {
   // Smooth scrolling using jQuery easing
   $('a.nav-link[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -61,4 +68,4 @@
       }
     }
   });
-})(jQuery);
+})();

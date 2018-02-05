@@ -1,7 +1,8 @@
 free-bussiness
 ===
 
-`Bootstrap` 截止目前已经升级到了 `v4.0.0-beta.2`，粗略的看了一下，`API` 有比较大的更新，于是随便找了个 [psd](https://pan.baidu.com/s/1pKEtOYf) 练练手，密码是 `rq3c`，顺便熟悉下新的 `API`  
+<del>`Bootstrap` 截止目前已经升级到了 `v4.0.0-beta.2`，</del>
+Bootstrap4已经正式发布了！粗略的看了一下，`API` 有比较大的更新，于是随便找了个 [psd](https://pan.baidu.com/s/1pKEtOYf) 练练手，密码是 `rq3c`，顺便熟悉下新的 `API`  
 
 
 *2017.11.16更新：*
@@ -24,6 +25,13 @@ $('.nav-link').click(function() {
 
 *2018.1.4更新：*
 1. 引入PostCSS，gulp-autoprefixer不在PostCSS支持的插件列表中，改用原版autoprefixer
+
+*2018.2.5更新：*
+1. 使用 `webpack` 重构项目，放在 webpack 分支下，都是老司机了，下面两个命令我就不解释了
+``` javascript
+$ npm i
+$ npm run build
+```
 
 Tips
 ---
