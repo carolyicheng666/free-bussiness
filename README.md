@@ -28,7 +28,7 @@ $('.nav-link').click(function() {
 
 *2018.2.5更新：*
 1. 使用 `webpack` 重构项目，放在 webpack 分支下，都是老司机了，下面两个命令我就不解释了
-``` javascript
+``` bash
 $ npm i
 $ npm run build
 ```
