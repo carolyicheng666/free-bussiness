@@ -9,6 +9,13 @@ Preview
 ![view](https://github.com/carolyicheng666/free-bussiness/blob/master/introduce.png)
 
 
+Status
+---
+
+[![Build Status](https://travis-ci.org/carolyicheng666/free-bussiness.svg?branch=master)](https://travis-ci.org/carolyicheng666/free-bussiness)
+[![GitHub license](https://img.shields.io/github/license/carolyicheng666/free-bussiness.svg)](https://github.com/carolyicheng666/free-bussiness/blob/master/LICENSE)
+
+
 
 Update
 ---
@@ -52,4 +59,10 @@ Tips
   padding-left: 0;
 }
 ```
+
+
+License
+---
+
+MIT
 
